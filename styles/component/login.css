@@ -1,0 +1,17 @@
+.login-content {
+  background: linear-gradient(to top, white, var(--COLOR-PRIMARY-XLIGHT));
+}
+
+.dark .login-content {
+  background: transparent;
+}
+
+.login-actions {
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+  .login-card {
+    width: 100%;
+  }
+}
