@@ -1,6 +1,7 @@
 @import url("utils/font.css");
 @import url("utils/header.css");
 @import url("component/browse-quiz.css");
+@import url("component/login.css");
 
 .card-btn:hover,
 .card-icon-btn:hover {
@@ -31,6 +32,10 @@
 
 .footer-icon:hover {
   color: var(--COLOR-COMPLEMENTARY);
+}
+
+.m-b-2 {
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 400px) {
