@@ -1,8 +1,8 @@
-.login-content {
+.form-content {
   background: linear-gradient(to top, white, var(--COLOR-PRIMARY-XLIGHT));
 }
 
-.dark .login-content {
+.dark .form-content {
   background: transparent;
 }
 
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 500px) {
-  .login-card {
+  .form-card {
     width: 100%;
   }
 }

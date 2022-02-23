@@ -36,51 +36,53 @@
         </ul>
       </nav>
     </div>
-    <main class="login-content full-wd grid-ctr m-auto p-h-2 p-v-5">
+    <main class="form-content full-wd grid-ctr m-auto p-h-2 p-v-5">
       <h2 class="title colored-text h1 m-v-2"><span class="circle"></span>SIGN UP</h2>
-      <form
-        class="card form-card validate-form left-text row-flex text-wrap box-shd w-40rm p-h-1 p-v-2 m-2"
-        novalidate=""
-      >
-        <div class="field col-flex w-95p">
-          <label class="m-v-1" for="fname">FULL NAME<span class="mandatory-field">*</span></label>
-          <input type="text" class="input p-07" id="fname" required="" />
-          <small class="form-validation-msg success-msg green-text"
-            ><i class="fa fa-check-circle-o" aria-hidden="true"></i>Valid field</small
-          >
-          <small class="form-validation-msg error-msg red-text"
-            ><i class="fa fa-exclamation-circle" aria-hidden="true"></i>Please enter valid input</small
-          >
-        </div>
-        <div class="field col-flex w-95p">
-          <label class="m-v-1" for="email">EMAIL<span class="mandatory-field">*</span></label>
-          <input type="email" class="input p-07" id="email" required="" />
-          <small class="form-validation-msg success-msg green-text"
-            ><i class="fa fa-check-circle-o" aria-hidden="true"></i>Valid field</small
-          >
-          <small class="form-validation-msg error-msg red-text"
-            ><i class="fa fa-exclamation-circle" aria-hidden="true"></i>Please enter valid email</small
-          >
-        </div>
-        <div class="field col-flex w-95p">
-          <label class="m-v-1" for="upassword">PASSWORD<span class="mandatory-field">*</span></label>
-          <input type="password" class="input p-07" id="upassword" required="" />
-          <small class="form-validation-msg success-msg green-text"
-            ><i class="fa fa-check-circle-o" aria-hidden="true"></i>Valid field</small
-          >
-          <small class="form-validation-msg error-msg red-text"
-            ><i class="fa fa-exclamation-circle" aria-hidden="true"></i>Please enter valid input</small
-          >
-        </div>
-        <div class="field full-wd m-1">
-          <input class="checkbox-input m-r-1" type="checkbox" id="terms" required="" />
-          <label class="m-v-1" for="terms">Recieve e-mail regarding discounts?</label>
-        </div>
-        <button type="submit" class="btn primary-btn w-95p m-1">
-          <span>SIGN UP</span>
-        </button>
-      </form>
-      <p class="m-b-2">Already a member? <a href="signin.html" class="colored-text underlined-text">Login here</a></p>
+      <div class="form-card w-40rm col-flex">
+        <form
+          class="card form-card validate-form left-text row-flex text-wrap box-shd w-40rm p-h-1 p-v-2 m-v-2"
+          novalidate=""
+        >
+          <div class="field col-flex w-95p">
+            <label class="m-v-1" for="fname">FULL NAME<span class="mandatory-field">*</span></label>
+            <input type="text" class="input p-07" id="fname" required="" />
+            <small class="form-validation-msg success-msg green-text"
+              ><i class="fa fa-check-circle-o" aria-hidden="true"></i>Valid field</small
+            >
+            <small class="form-validation-msg error-msg red-text"
+              ><i class="fa fa-exclamation-circle" aria-hidden="true"></i>Please enter valid input</small
+            >
+          </div>
+          <div class="field col-flex w-95p">
+            <label class="m-v-1" for="email">EMAIL<span class="mandatory-field">*</span></label>
+            <input type="email" class="input p-07" id="email" required="" />
+            <small class="form-validation-msg success-msg green-text"
+              ><i class="fa fa-check-circle-o" aria-hidden="true"></i>Valid field</small
+            >
+            <small class="form-validation-msg error-msg red-text"
+              ><i class="fa fa-exclamation-circle" aria-hidden="true"></i>Please enter valid email</small
+            >
+          </div>
+          <div class="field col-flex w-95p">
+            <label class="m-v-1" for="upassword">PASSWORD<span class="mandatory-field">*</span></label>
+            <input type="password" class="input p-07" id="upassword" required="" />
+            <small class="form-validation-msg success-msg green-text"
+              ><i class="fa fa-check-circle-o" aria-hidden="true"></i>Valid field</small
+            >
+            <small class="form-validation-msg error-msg red-text"
+              ><i class="fa fa-exclamation-circle" aria-hidden="true"></i>Please enter valid input</small
+            >
+          </div>
+          <div class="field full-wd m-1">
+            <input class="checkbox-input m-r-1" type="checkbox" id="terms" required="" />
+            <label class="m-v-1" for="terms">Recieve e-mail regarding discounts?</label>
+          </div>
+          <button type="submit" class="btn primary-btn w-95p m-1">
+            <span>SIGN UP</span>
+          </button>
+        </form>
+        <p class="m-b-2">Already a member? <a href="signin.html" class="colored-text underlined-text">Login here</a></p>
+      </div>
     </main>
     <footer class="quiz-footer p-3 m-t-3 row-flex no-wrap">
       <div class="contact-socials m-v-1 m-r-3">
